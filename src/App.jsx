@@ -4,9 +4,9 @@ const App = () =>{
     return(
         <Router>
             <Routes>
-                <Route></Route>
-                <Route></Route>
-                <Route></Route>
+                <Route path='/' element = {<Home/>}/>
+                <Route path='/projects' element = {<Projects/>}/>
+                <Route path='/contact' element = {<Contact/>} />
             </Routes>
         </Router>
     )
