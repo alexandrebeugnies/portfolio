@@ -1,4 +1,7 @@
 import React from "react";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 const App = () =>{
     return(
@@ -11,3 +14,4 @@ const App = () =>{
         </Router>
     )
 }
+export default App
